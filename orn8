@@ -1,0 +1,13 @@
+ <!--DOM  (DOCUMENT OBJECT MODULE)-->
+
+
+ <div id="ornek">Nihal<b>Öz</b></div>
+
+
+ <script>
+     var div = document.getElementById("ornek").innerText;
+     var div2 = document.getElementById("ornek").innerHTML;
+
+     console.log(div);
+     console.log(div2);
+ </script>
