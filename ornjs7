@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        ///*       isNan komutu :kullanıcıdan girilen değerin  sayısal değer olup olmadıgını kontrol eder*/
+
+        //var egitim = "backend";
+        //if (isNaN(egitim)) {
+        //    document.write("sayı değil");
+        //}
+        //else {
+        //    document.write("satyı");
+        //}
+        //var day = date.now();
+        ////getdate()ayın tarihi verir
+        ////getday:haftanın gününü verir
+        ////get FullYear:yıl olarak veriyor.
+        ////gethours:saat bilgisi
+        ////getMonth:ay
+        ////getSeconds: saniye blgisi veriri
+        ////getTime
+
+
+        var tarih = new Date();
+        tarih.setdate(14);
+        tarih.setFullYear(2023);
+        tarih.setSeconds(12);
+        document.write(tarih);
+
+
+
+
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
