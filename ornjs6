@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        isim = (ad, a) => {
+            alert(ad);
+            alert(a);
+        }
+    </script>
+</head>
+<body>
+    <button onclick="isim('nihal','öz')">1.kişi</button>
+    <button onclick="isim('akın','öz')">2kişi</button>
+
+</body>
+</html>
