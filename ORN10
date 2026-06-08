@@ -1,0 +1,15 @@
+ <!--Yeni Eleman Oluşturma ( createElement )
+ Yeni bir HTML etiketi oluşturmak için creatElement kullanılır. Element
+ oluşturulduktan sonra içerik veya özellik eklemesi yapılır.
+ Yeni eleman oluşturulduktan sonra appendChild ile eklenir-->
+
+
+
+  
+ <script>
+     var bolum = document.createElement("div");
+     bolum.innerHTML = "merhaba ";
+     document.body.appendChild(bolum);
+     var bolum2 = document.createElement("p");
+     bolum2.innerHTML = "paraları çekin harcayın";
+     document.body.appendChild(bolum2);
