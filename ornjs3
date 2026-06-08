@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script>
+        //javascripte kullanılan veri tipleri
+        //string
+        //Number
+        //Boolean
+        //Array
+        //Object   (json)
+
+        //var dizi1 = new Array("ali", "veli", 34);
+        //var dizi2 = ["lale", "fatma", 24];
+        //alert(dizi1);
+        //console.log(dizi2);
+
+
+        //object tipi tanımalam
+
+        var adres = {
+
+            sehir:'ankara',
+            ulke:'Türkiye'
+        }
+
+        console.log(adres.sehir);
+        alert(adres.ulke);
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
