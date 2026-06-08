@@ -1,0 +1,19 @@
+ <!--- Eleman Silme ( removeChild )
+ Elemen silme işlemi için removeChild ifadesi kullanılmaktadır. Bununla
+ birlikte silinecek olan bilgiler detaylı olarak belirtilerek işlevsellik
+ katılabilir.-->
+ <!--<div id="ornek">Deneme</div>
+ <script>
+     var liste = document.getElementById("ornek");
+     liste.parentNode.removeChild(liste);
+ </script>-->
+ <!---------------------------------------------------->
+ <ul id="liste">
+     <li>A</li>
+     <li>B</li>
+     <li>C</li>
+ </ul>
+ <script>
+     var liste1 = document.getElementById("liste");
+     liste1.removeChild(liste.childNodes[4]);
+ </script>
