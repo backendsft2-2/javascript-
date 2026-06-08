@@ -1,0 +1,8 @@
+  <script>
+      var bilgiler = [];
+
+      bilgiler[0] = ["nibhal öz", "sivas", 37];
+      bilgiler[1] = ["akın öz", "sivas", 41];
+      console.log(bilgiler);
+
+  </script>
