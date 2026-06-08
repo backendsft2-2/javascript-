@@ -1,0 +1,132 @@
+NOTLAR:
+javascript: geliştiricelerin etkilieşimli sayfalar oluşturulmasını sağlıyordu.
+
+innerhtml: html nesnelerin işlem yapıp yazı yazdırascaksak 
+
+html sayfasına bişeyler document.write
+console.log
+
+let: tanımlanmış değişken saceden tanımlandıgı alanda kullanılabilir degeri değişebilir 
+
+const: kapsam alanı içerisinde sabir olarak kullandıgımız değişken tipi 
+
+ternary komutu: koşukl ifadelerini tek satırda kolay bir şekilde yapılmasını sağlar
+
+javascripte kullanılan veri tipleri:        
+string, Number, Boolean, Array, Object(json)
+
+function tanımla şekilleri:
+    function hesap() {
+        calıslılcak kod
+    }
+
+    hesap = () => {
+         calıslılcak kod
+    }
+
+    function hesap() {
+        console.log("hesap tutmadı")
+    }
+
+    hesap1 = () => {
+        alert("doğru hesap");
+    }
+    
+    hesap();
+    hesap1();
+    
+    
+    
+    
+JS KOD ÖRNEKLERİ:​
+<script>        
+console.log("adem hoşgeldin");        
+document.write("iyi dersler backend");        alert("hoşgeldiniz bnackend");    
+</script>
+_______________________________
+ternary komutu: 
+var isim = prompt("isim giriniz");
+isim == "nihal" ? alert(isim + "Hoşgeldinşz") : alert("yanlış değer");
+_______________________________
+If-else:
+var soru = prompt("Adınızı giriniz");
+alert("adınızv : " + soru);
+
+var islem = confirm("İşleme devam edilsin mi?");
+if (islem == true) {
+    alert("işleme devam")
+}
+else {
+    alert("hayır işlem yetkisiz")
+}
+_______________________________
+Dizi tanımlama:
+var dizil = new Array("ali", "veli", 34);
+var dizi2 = ["lale", "fatma", 24];
+alert(dizil);
+console. log(dizi2),
+_______________________________
+Object tipi tanımlama:
+var adres = {
+sehir:'ankara',
+ulke:'Türkiye'
+}
+
+console.log(adres.sehir);
+alert(adres.ulke);
+_______________________________
+Maç sonuç hesaplayıcı:
+ <script>
+    var macSonucu = {
+        evSahibi: "Fenerbahçe",
+        deplasman: "Galatasaray",
+        fbSkor:0,
+        gsSkor:3
+    };
+
+
+    var skorMetni = macSonucu.evSahibi + " " + macSonucu.fbSkor + " - " + macSonucu.gsSkor + " " + macSonucu.deplasman;
+
+ 
+    console.log(skorMetni);
+
+
+    alert("Maç Sonucu: " + skorMetni);
+</script>
+
+_______________________________
+buton click ile fonk çağırma:
+
+<!DOCTYPE html>
+<html lang="en"> 
+<head>    
+<meta charset="UTF-8">    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Document</title>    
+<script>
+       calis = (isim, soyisim, yas) => {
+                          alert(isim + " " + soyisim  + " " + yas) 
+}
+</script>
+</head> 
+<body>
+<button onclick="calis('Adem', 'Eraslan' , 22)"></button>
+</body> 
+</html>
+
+_______________________________
+var hesapla = confirm("Not hesaplamasını yapmak istiyor musunuz?");
+ if (hesapla) {
+        
+        function notHesapla(not) {
+            if(not >= 0 && not < 50) return 'FF';
+            if(not >= 50 && not < 70) return 'CC';
+            if(not >= 70 && not < 85) return 'BB';
+            if(not >= 85 && not <= 100) return 'AA';
+            return 'Geçersiz Not';
+        }
+
+        var sonuc = notHesapla(78);
+        document.write("Notunuz: " + sonuc);
+    } else {
+        
+        document.write("İşlem iptal edildi.");
