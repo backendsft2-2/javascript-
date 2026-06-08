@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <script>
+        //var soru = prompt("Adınızı giriniz");
+        //alert("adınızv : " + soru);
+
+        //var islem = confirm("İşleme devam edilsin mi?");
+        //if (islem == true) {
+        //    alert("işleme devam")
+        //}
+        //else {
+        //    alert("hayır işlem yetkisiz")
+        //}
+
+        //ternary komutu :koşukl ifadelerini tek satırda kolay bir şekilde yapılmasını sağlar
+        //yapısı
+
+        var isim = prompt("isim giriniz");
+        isim == "nihal" ? alert(isim + "Hoşgeldinşz") : alert("yanlış değer");
+
+
+
+    </script>
+</head>
+<body>
+
+</body>
+</html>
